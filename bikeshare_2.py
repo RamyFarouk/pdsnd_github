@@ -8,6 +8,8 @@ cities=['chicago','new york city','washington']
 months = ['january', 'february', 'march', 'april', 'may', 'june']
 days=['monday', 'tuesday','wednesday','thursday','friday','saturday', 'sunday']
 
+# The Following function filter user input data to compute specific analysis
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -215,7 +217,7 @@ def display_data(df, start):
             print("If you do not want to display data Just say no .")
             return display_data(df, start)
 
-
+# Main Code function
 def main():
     while True:
         city, month, day = get_filters()
