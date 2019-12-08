@@ -26,6 +26,8 @@ def get_filters():
         print('sorry you enterd invalid city to explore')
         city=input('please reselect a city from these available cities(chicago, new york city or washington):').lower()
     print("you select {}".format(city))
+    if city=="washington":
+        print("Washington data dose not include data related to gender and date of birth ")
     print('-'*40)
 
     # get user input for a month (all,january,february,...june)
