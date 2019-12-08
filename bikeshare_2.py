@@ -32,7 +32,7 @@ def get_filters():
 
     # get user input for a month (all,january,february,...june)
 
-    month=input('Now enter a month to explore from (january,february,...june) or enter all to explore all months ').lower()
+    month=input('Now enter a month to explore from the first half year or enter all to explore all months ').lower()
     while (month != 'all') and (month not in months):
         print("sorry an invalid month was enetered and available months are from january to june")
         month = input('please enter an available month to explore:').lower()
