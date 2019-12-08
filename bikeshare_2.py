@@ -215,7 +215,7 @@ def display_data(df, start):
             print("If you do not want to display data Just say no .")
             return display_data(df, start)
 
-
+# Main Code function
 def main():
     while True:
         city, month, day = get_filters()
