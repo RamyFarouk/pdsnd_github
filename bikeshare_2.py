@@ -8,6 +8,8 @@ cities=['chicago','new york city','washington']
 months = ['january', 'february', 'march', 'april', 'may', 'june']
 days=['monday', 'tuesday','wednesday','thursday','friday','saturday', 'sunday']
 
+# The Following function filter user input data to compute specific analysis
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
